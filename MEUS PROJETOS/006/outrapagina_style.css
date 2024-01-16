@@ -1,0 +1,30 @@
+body{
+    background-attachment: fixed;
+    background-image:linear-gradient(to top, #fafafa, #44a4af, rgb(84, 111, 199));
+}
+
+.forma{
+    margin: auto;
+    height: 450;
+    max-width: 350px;
+    padding: 15px;
+    background-color: rgba(247, 228, 122, 0.562); 
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+.botam{
+    text-align: center;
+}
+
+.projetos,.sobre{
+    height: 90px;
+    width: 290px;
+    
+}

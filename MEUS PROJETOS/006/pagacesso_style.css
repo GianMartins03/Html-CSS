@@ -1,0 +1,47 @@
+body{
+    background-attachment: fixed;
+    background-image:linear-gradient(to top, #fafafa, #44a4af, rgb(84, 111, 199));
+}
+
+.inicio{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white
+}
+
+#forma{
+    text-align: 
+    center;
+    margin: auto;
+    height: 400px;
+    max-width: 350px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.acesso{
+    text-align: center;
+    
+}
+
+.acesso2{
+    text-align: center;
+}
+
+.imagem{
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.botam{
+    text-align: center;
+    
+}
+
+#email:hover{
+    background-color: rgba(137, 253, 253, 0.349);
+}
+
+#senha:hover{background-color: rgba(137, 253, 253, 0.349);}

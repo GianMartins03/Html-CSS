@@ -1,0 +1,41 @@
+*{
+    height: 100%;
+}
+body{
+    background-image: url(linkedin\ fundo-\ fuul.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    
+    
+}
+label{
+    color:#3470BF ;
+    font: 30pt italic ;
+  
+    
+}
+input{
+    height: 15px;
+}
+#g{
+    font: 7pt arial;
+}
+a{
+    font: 10px arial;
+    color: #2569B4;
+}
+#botam{
+    background-color: #2f6faf;
+    border-radius: 5px;
+    height: 20px;
+}

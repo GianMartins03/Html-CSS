@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="outrapagina_style.css">
+</head>
+<body>
+    <h1>PERGUNTAS PARA VAGA.</h1>
+        
+
+        <form class="forma">
+            <div class="idade">
+                Qual sua data de nascimento?<br> <br>
+                <input type="number" class="idade">
+            </div> <br> 
+
+            <div class="nome">
+                Nome completo: <br> <br>
+                <input type="text" class="nome">
+            </div> <br>
+
+            <div>
+                Em qual faculdade você se formou? <br> <br>
+                <input type="text" id="faculdade">
+            </div> <br> 
+
+            <div>
+                Descreva seus projetos feitos na faculdade: <br> <br>
+                <input  class="projetos" type="text" id="projetos">
+            </div> <br> 
+            
+            <div>
+                Qual sua área de Markting: <br> <br>
+                <input type="checkbox" name="Digital"> Digital <br>
+                <input type="checkbox" name="Comercial"> Comercial <br>
+                <input type="checkbox" name="Empresarial"> Empresarial <br>
+            </div> <br> 
+
+            <div>
+                
+                Agora me conte um pouco sobre você: <br> <br>
+                <input type="text" class ="sobre">
+                
+            </div> <br>
+
+            <div class="botam">
+                <button onclick="openInNewTab()">Finalizar</button> <br> <br>
+    
+                
+    
+        <script>
+            function openInNewTab() {
+                window.open('final.html', '_blank');
+            }
+        </script>
+            </div>
+        </form>
+    
+</body>
+</html>

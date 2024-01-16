@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    height: 100%;
+    background-color: rgb(233, 223, 165);
+    
+}
+main{
+    font: 30pt arial;
+    height: 250px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to top, #64bb5c91,#1cd425ee,#31911eab);
+}
+
+.titulo{
+    color: white;
+    font: 35pt arial;
+}
+
+p{
+    font: 15px arial;
+}
+
+.a:hover{ color: white;}
+.b:hover{color: white;}
+.c:hover{color: white;}
+.d:hover{color: white;}
+
+form{
+    margin: auto;
+    background-color: #9cdfa794;
+    height: 800px;
+    width: 800px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.445)
+}
+
+.terceiradiv{
+    text-align: center;
+   
+
+} 
+
+.segundadiv{
+    text-align: center;
+}
